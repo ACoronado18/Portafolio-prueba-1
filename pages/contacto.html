@@ -35,7 +35,8 @@
 
      <main class="grid__main-contacto">
         <section class="form">
-            <form class="form__container" id="form">
+            <form class="form__container" id="form" action="https://formspree.io/f/xrgdebjb"
+            method="POST">
                 <label for="nombre">Nombre</label>
                 <input class="form__container-input" name="nombre" type="text" id="nombre" placeholder="Nombre" required>
        
@@ -61,7 +62,7 @@
                 <li>Andrés Coronado</li>
                 <li>Campeche, México</li>
                 <li>+52 938 107 5610</li>
-                <li>audiocoronado@outlook.com</li>
+                <li>acsound@andrescoronado.com.mx</li>
             </ul>
         </section>
                 
@@ -84,6 +85,28 @@
             </nav>           
         </div>
     </footer>
+    <!-- script -->
+    <script>
+        const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handlesubmit)
+
+        async function handlesubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            if (response.ok) {
+                this.reset()
+                alert('Gracias por contactarme, te escribiré pronto :)')
+            }
+        }
+    </script>
           
 </body>
 </html>

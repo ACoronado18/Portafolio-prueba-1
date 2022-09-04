@@ -584,24 +584,24 @@ button:hover {
     }
 
     .content__navbar {
-    /* display: none; */
+    display: none;
     flex-direction: column;
     align-items: center;
-    height: 1px;
+    /* height: 1px; */
     background-color: hsl(0, 0%, 20%, 80%);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
     transition: 1s ease-in-out;
     }
     
-    .nav__input:checked + .content__navbar {
+    /* .nav__input:checked + .content__navbar {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         height: auto;
 
-    }
-
-    /* #btn-menu:checked ~ .content__navbar{
-        display: flex;
     } */
+
+    #btn-menu:checked ~ .content__navbar{
+        display: flex;
+    }
 
     .content__navbar a {
         font-size: 20px;
