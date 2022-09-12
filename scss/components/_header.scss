@@ -1,0 +1,12 @@
+.grid__header {
+    height: 200px;
+    grid-area: header;
+    background-color: #fafafacc;
+    display: flex;
+    justify-content: center;
+}
+
+.grid__header img {
+    height: 200px;
+}
+

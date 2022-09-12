@@ -1,0 +1,95 @@
+.grid__main-contacto {
+    height: auto;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+    margin-bottom: auto;
+  
+}
+
+
+form {
+    width: auto;
+    padding: 20px 20px;
+    background-color: #efeeeacc;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    font-size: 30px;
+}
+
+.form__container-input {
+    display: flex;
+    justify-content: center;
+    margin: none;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.button {
+    margin-top: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: Bebas;
+    margin: 0 20px;
+    font-size: 20px;
+    width: 90px;
+    height: 40px;
+    background-color:  #ad7189b3;
+    color: #F9F2ED;
+    border-radius: 7px;
+    border-width: 0px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    color:black;
+    background-color: rgba(173, 113, 137, 60);
+    width: 100px;
+}
+
+
+
+.contact {
+    background-color: #f0f8ff66;
+    position: sticky;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact__list li {
+    padding: 10px 0;
+}

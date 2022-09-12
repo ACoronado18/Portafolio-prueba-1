@@ -1,0 +1,22 @@
+{
+  "name": "portafolio-prueba-coronado",
+  "version": "1.0.0",
+  "description": "Proyecto para portafolio profesional",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACoronado18/Portafolio-prueba-1.git"
+  },
+  "author": "Andrés Coronado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACoronado18/Portafolio-prueba-1/issues"
+  },
+  "homepage": "https://github.com/ACoronado18/Portafolio-prueba-1#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

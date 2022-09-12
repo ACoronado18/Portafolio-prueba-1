@@ -1,0 +1,36 @@
+.grid__main-servicios {
+    height:auto;
+}
+
+.servicios {
+    margin: 20px 20px 40px 20px;
+    padding: 20px;
+    background-color: #f9f1ec80;
+    width: auto;
+
+    &__card img{
+      width: 100%;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    &__card-information{
+      background-color: #deb6ab99;
+      padding: 10px;
+
+      p{
+         font-size: 50px;
+         margin-bottom: 10px;
+      }
+
+      li{
+         font-family: 'Playfair Display', serif;
+         display: block;
+         margin: 10px 30px;
+         font-size: 30px;
+      }
+      &-bold{
+         font-weight: bolder;
+      }
+    }
+ }
