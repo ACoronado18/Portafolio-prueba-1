@@ -16,35 +16,38 @@
   .botones {
     text-align: center;
     margin-bottom: 20px;
-}
 
-.botones__icon ul li {
-    display: inline-flex;
-    padding: 15px 2px 0;
-}
+    &__icon{
 
-.botones__icon ul li a{
-    background-color: #333;
-    color: aliceblue;
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 5) ;
-    transition: .3s;
+        ul li{
+            display: inline-flex;
+            padding: 15px 2px 0;
+        }
+
+        ul li a{
+            background-color: #333;
+            color: aliceblue;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 5) ;
+            transition: .3s;
+
+            &:hover{
+                transform: translateY(-3px) scale(1.05);
+                box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 5) ;
+                filter:none;
+            }
+        }
+    }
 }
 
 .botones__icon ul:hover a{
     filter: blur(1px);
-}
-
-.botones__icon ul li a:hover{
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 5) ;
-    filter:none;
 }
 
 .botones__icon ul li a i.fa-brands {
