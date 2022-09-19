@@ -25,15 +25,13 @@
         }
 
         ul li a{
+            @include templateFlex(true);
             background-color: #333;
             color: aliceblue;
             border: none;
             width: 40px;
             height: 40px;
             border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 5) ;
             transition: .3s;
 

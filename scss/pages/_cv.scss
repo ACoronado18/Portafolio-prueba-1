@@ -3,9 +3,8 @@
 }
 
 .cv {
+    @include templateFlex(false);
     width: 100%;
-    display: flex;
-    justify-content: center;
 
     img{
         margin-top: 20px;

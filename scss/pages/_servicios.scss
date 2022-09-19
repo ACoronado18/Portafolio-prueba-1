@@ -11,7 +11,7 @@
     &__card img{
       width: 100%;
       margin: 20px 0;
-      border-radius: 10px;
+      border-radius: $borderRadius;
     }
 
     &__card-information{

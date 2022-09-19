@@ -37,11 +37,11 @@ ul {
   grid-template-areas: "header" "navbar" "main" "footer"; }
 
 .grid__header {
+  display: flex;
+  justify-content: center;
   height: 200px;
   grid-area: header;
-  background-color: #fafafacc;
-  display: flex;
-  justify-content: center; }
+  background-color: #fafafacc; }
   .grid__header img {
     height: 200px; }
 
@@ -109,15 +109,15 @@ ul {
     display: inline-flex;
     padding: 15px 2px 0; }
   .botones__icon ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #333;
     color: aliceblue;
     border: none;
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0 3px 5px 0 black;
     transition: .3s; }
     .botones__icon ul li a:hover {
@@ -298,10 +298,10 @@ ul {
     padding: 20px 0;
     font-size: 25px; }
   .card__link {
-    background-color: #ad7189b3;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ad7189b3;
     width: 30%;
     padding: 15px 0;
     margin: 10px auto;
@@ -321,9 +321,9 @@ ul {
   height: auto; }
 
 .cv {
-  width: 100%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%; }
   .cv img {
     margin-top: 20px;
     width: 65%;
@@ -417,10 +417,10 @@ textarea {
   max-width: 100%; }
 
 .button {
-  margin-top: 10px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 10px; }
 
 button {
   font-family: Bebas;
@@ -441,14 +441,14 @@ button:hover {
   width: 100px; }
 
 .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f0f8ff66;
   position: sticky;
   text-align: center;
   font-size: 30px;
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin: 20px 0; }
 
 .contact__list li {
   padding: 10px 0; }

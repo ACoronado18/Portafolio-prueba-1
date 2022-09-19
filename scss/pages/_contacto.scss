@@ -4,9 +4,7 @@
 
 
 .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include templateFlex(true);
     margin: 30px 10px;
     margin-bottom: auto;
   
@@ -23,15 +21,13 @@ form {
 }
 
 label {
-    display: flex;
-    justify-content: center;
+    @include templateFlex(false);
     margin:10px;
     font-size: 30px;
 }
 
 .form__container-input {
-    display: flex;
-    justify-content: center;
+    @include templateFlex(false);
     margin: none;
 }
 
@@ -50,10 +46,8 @@ textarea {
 }
 
 .button {
+    @include templateFlex(true);
     margin-top: 10px;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 button {
@@ -79,15 +73,12 @@ button:hover {
 
 
 .contact {
+    @include templateFlex(true);
     background-color: #f0f8ff66;
     position: sticky;
     text-align: center;
     font-size: 30px;
     margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .contact__list li {

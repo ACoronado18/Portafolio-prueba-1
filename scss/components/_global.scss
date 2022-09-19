@@ -49,3 +49,14 @@ ul {
     "footer"
     ;
 }
+
+//Mixin
+
+@mixin templateFlex($alignItems) {
+    display: flex;
+    justify-content: center;
+
+    @if ($alignItems == true){
+        align-items: center;
+    }
+}

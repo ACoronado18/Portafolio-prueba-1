@@ -1,10 +1,8 @@
 .grid__header {
+    @include templateFlex(false);
     height: 200px;
     grid-area: header;
     background-color: #fafafacc;
-    display: flex;
-    justify-content: center;
-
     img{
         height: 200px;
     }

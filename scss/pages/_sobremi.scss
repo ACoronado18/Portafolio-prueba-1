@@ -4,8 +4,7 @@
 }
 
 .sobremi__content {
-    display: flex;
-    justify-content: center;
+    @include templateFlex(false);
 }
 
 .card {
@@ -13,12 +12,11 @@
     background-color: $primary;
     padding: 20px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: $borderRadius;
     box-shadow: 0 25px 70px 12px rgba(0, 0, 0, 60%);
 
     &__header-img{
-        display: flex;
-        justify-content: center;
+        @include templateFlex(false);
         width: 40%;
         border-radius: 50%;
         margin: 20px auto;
@@ -37,16 +35,12 @@
         padding-bottom: 10px;
 
         h2{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+             @include templateFlex(true);
             font-size: 40px;
         }
 
         h3{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include templateFlex(true);
             font-size: 30px;
         }
     }
@@ -60,16 +54,14 @@
     }
 
     &__link{
+        @include templateFlex(true);
         background-color: #ad7189b3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 30%;
         padding: 15px 0;
         margin: 10px auto;
         text-align: center;
         color: #e2e8f0;
-        border-radius: 10px;
+        border-radius: $borderRadius;
         cursor: pointer;
         font-weight: lighter;
         font-size: 22px;
