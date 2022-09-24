@@ -4,7 +4,6 @@
 @import './components/header';
 @import './components/navbar';
 @import './components/footer';
-@import './components/mediaquerie';
 // pages
 @import './pages/index';
 @import './pages/sobremi';
@@ -12,3 +11,6 @@
 @import './pages/servicios';
 @import './pages/audiodemos';
 @import './pages/contacto';
+
+//component mediaquerie
+@import './components/mediaquerie';
