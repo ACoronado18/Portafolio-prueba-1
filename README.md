@@ -1,2 +1,3 @@
 # Repositorio de Portafolio Prueba
-Se aplico **SASSII** al proyecto y **SEO**
+Se aplico **Bootstrap** al formulario, en la página de contacto.
+Este pórtafolio profesional se puede abrir a travez de Vercel.
